@@ -1,5 +1,7 @@
 # svelte-heroicons
 
+> Please note: This is a temprorary fork of [rgossiaux/svelte-heroicons](https://github.com/rgossiaux/svelte-heroicons) until v2 support is merged.
+
 Yet another Svelte wrapper for [Heroicons](https://heroicons.com). 
 
 This library differs from others in a couple main ways:
@@ -10,21 +12,21 @@ This library differs from others in a couple main ways:
 # Installation
 
 ```
-npm install -D @rgossiaux/svelte-heroicons
+npm install -D @babeard/svelte-heroicons@next
 ```
 
 # Usage
 
-Heroicons contains three types of icons: outline, solid and mini. They can be imported from `@rgossiaux/svelte-heroicons/outline`, `@rgossiaux/svelte-heroicons/solid` and `@rgossiaux/svelte-heroicons/mini` respectively.
+Heroicons contains three types of icons: outline, solid and mini. They can be imported from `@babeard/svelte-heroicons/outline`, `@babeard/svelte-heroicons/solid` and `@babeard/svelte-heroicons/mini` respectively.
 
 All icon names are CamelCased and end with the word `Icon`; for example, the `academic-cap` icon on heroicons.com is imported as `AcademicCapIcon`.
 
 ```svelte
 
 <script>
-  import { MegaphoneIcon } from "@rgossiaux/svelte-heroicons/solid";
-  import { CheckIcon } from "@rgossiaux/svelte-heroicons/outline";
-  import { ChatBubbleLeftIcon } from "@rgossiaux/svelte-heroicons/mini"
+  import { MegaphoneIcon } from "@babeard/svelte-heroicons/solid";
+  import { CheckIcon } from "@babeard/svelte-heroicons/outline";
+  import { ChatBubbleLeftIcon } from "@babeard/svelte-heroicons/mini"
 </script>
 
 <CheckIcon />
@@ -185,4 +187,4 @@ As with the main Heroicons library, this library is MIT licensed.
 
 # Credit
 
-All credit goes to Tailwind Labs for designing the icons and to the [svg-to-svelte](https://github.com/metonym/svg-to-svelte) library for the tooling to wrap them as Svelte components.
+All credit goes to Tailwind Labs for designing the icons and to the original ancestor to this fork [rgossiaux/svelte-heroicons](https://github.com/rgossiaux/svelte-heroicons).

@@ -1,6 +1,6 @@
 {
-  "name": "@rgossiaux/svelte-heroicons",
-  "description": "Svelte wrappers for the Heroicons library.",
+  "name": "@babeard/svelte-heroicons",
+  "description": "Svelte wrappers for the Heroicons v2 library.",
   "keywords": [
     "svelte",
     "svelte3",
@@ -8,14 +8,14 @@
     "heroicons",
     "icons"
   ],
-  "author": "Ryan Gossiaux <ryan.gossiaux@gmail.com>",
+  "author": "Brian Beard <brian.a.beard@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rgossiaux/svelte-heroicons/issues"
+    "url": "https://github.com/babeard/svelte-heroicons/issues"
   },
-  "homepage": "https://github.com/rgossiaux/svelte-heroicons",
-  "repository": "github:rgossiaux/svelte-heroicons",
-  "version": "2.0.0",
+  "homepage": "https://github.com/babeard/svelte-heroicons",
+  "repository": "github:babeard/svelte-heroicons",
+  "version": "2.0.0-rc.0",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
