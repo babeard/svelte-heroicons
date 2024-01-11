@@ -7,7 +7,7 @@ Yet another Svelte wrapper for [Heroicons](https://heroicons.com).
 This library differs from others in a couple main ways:
 * The icon components forward common event listeners to the underlying SVG, so you may use `on:click` and so on;
 * The API is closer to the official React wrappers, making it easier to use when converting [Tailwind UI](https://tailwindui.com/) components to Svelte in conjunction with [svelte-headlessui](https://github.com/rgossiaux/svelte-headlessui);
-* It's based on the latest version of Heroicons (at time of writing), **2.0.11**
+* It's based on Heroicons **2.1.1**
 
 # Installation
 
@@ -17,7 +17,7 @@ npm install -D @babeard/svelte-heroicons@next
 
 # Usage
 
-Heroicons contains three types of icons: outline, solid and mini. They can be imported from `@babeard/svelte-heroicons/outline`, `@babeard/svelte-heroicons/solid` and `@babeard/svelte-heroicons/mini` respectively.
+Heroicons contains three types of icons: outline, solid, mini, and micro. They can be imported from `@babeard/svelte-heroicons/outline`, `@babeard/svelte-heroicons/solid`, `@babeard/svelte-heroicons/mini`, and `@babeard/svelte-heroicons/micro` respectively.
 
 All icon names are CamelCased and end with the word `Icon`; for example, the `academic-cap` icon on heroicons.com is imported as `AcademicCapIcon`.
 
@@ -47,6 +47,7 @@ There are now 3 styles of icons to choose from instead of 2
 - Outline — line icons with a 1.5px stroke, drawn in a 24px view box.
 - Solid — solid icons with filled shapes, drawn in a 24px view box.
 - Mini — solid icons with filled shapes, drawn in a 20px view box.
+- Micro — solid icons with filled shapes, drawn in a 16px view box.
 
 Note: The old `Solid` with the view box size of 20px was essentially renamed to `Mini` in v2.
 
